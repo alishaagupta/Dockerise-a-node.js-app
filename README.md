@@ -1,7 +1,7 @@
 # Installation
 
 
-## Step 1: Install node
+## Step 1: Install Node
 
 ```
 $ sudo install nodejs
@@ -16,14 +16,16 @@ https://nodejs.org/en/download/
 
 https://docs.npmjs.com/getting-started/installing-node
 
-## Step 3: Install docker
+
+## Step 3: Install Docker
+
 https://docs.docker.com/install/
 
 
 
 ## Step 4: *Create your node application*
+[app.js](https://github.com/alishaagupta/HelloWorld/blob/master/app.js)
 
-/app.js
 
 
 
@@ -38,7 +40,9 @@ $ sudo npm init
 
 
 ## Step 6: *Create Dockerfile in the same directory (Make sure Dockerfile does not have any extension with it*
-A Dockerfile contains steps/commands that must be executed 
+A Dockerfile contains commands that must be executed sequentially to run the application
+
+[Dockerfile](https://github.com/alishaagupta/HelloWorld/blob/master/Dockerfile)
 
 
 ## Step 7: *Build the docker image*
