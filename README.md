@@ -42,7 +42,7 @@ A Dockerfile contains steps/commands that must be executed
 
 
 ## Step 7: *Build the docker image*
-Once the Dockerfile is created build command is used to build image , The command will exceute the Dockerfile line by line4
+Once the Dockerfile is created build command is used to build image , The command will exceute the Dockerfile line by line
 ```
 
 $sudo docker build -t ImageName:tag .
@@ -50,7 +50,7 @@ $sudo docker build -t ImageName:tag .
 
 
 ## Step 8: *Check if the docker image is built*
-To check if the image is built successfully 
+To check if the image is built successfully , the following command lists all the docker images on the system :
 ```
 
 $ sudo docker images
@@ -58,7 +58,7 @@ $ sudo docker images
 
 
 ## Step 9: *Check the list of currently running containers*
-To see the list of currently running containers
+To see the list of currently running containers run the following command :
 ```
 
 $sudo docker ps
@@ -67,9 +67,8 @@ $sudo docker ps
 
 
 ## Step 10: *Run the current container*
-To Run the container
 A container is an instance of image that is run of any machine having docker engine 
-here 3000 is the docker host port set in the Dockerfile and 5000 is the docker container port
+Here 3000 is the docker host port set in the Dockerfile and 5000 is the docker container port
 ```
 
 $sudo docker run -p 3000:3000 -p 5000:5000 ImageName
