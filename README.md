@@ -1,5 +1,5 @@
 
-
+SETTING UP:
 
 install nodejs
 https://nodejs.org/en/download/
@@ -8,13 +8,18 @@ https://nodejs.org/en/download/
 install docker
 https://docs.docker.com/install/
 
+install npm
+https://docs.npmjs.com/getting-started/installing-node
+
 
 #Create node application
 create app.js file
 
-#to create package.json file 
-npm init
+#After we have created our application, we need to create a package.json file to ensure that all of our application’s dependencies are installed in our container. To create a package.json file, run the following command and follow the prompts: 
 
+$ sudo npm init
+
+STEPS: 
 
 Create a Dockerfile in the same directory.
 #A Dockerfile contains steps/commands that must be executed 
