@@ -1,4 +1,4 @@
-INSTALL DEPENDENCIES
+
 
 
 install nodejs
@@ -7,6 +7,7 @@ https://nodejs.org/en/download/
 
 install docker
 https://docs.docker.com/install/
+
 
 #Create node application
 create app.js file
@@ -34,9 +35,11 @@ $sudo docker ps
 
 #To Run the container
 #A container is an instance of image that is run of any machine having docker engine 
-#here 7003 is the docker host port set in the Dockerfile and 5000 is the docker container port
+#here 3000the docker host port set in the Dockerfile and 5000 is the docker container port
 
-$sudo docker run -p 7003:7003 -p 5000:5000 ImageName
+$sudo docker run -p 3000:3000 -p 5000:5000 ImageName
+
+#The node app is running on localhost:3000
 
 
 
