@@ -1,0 +1,16 @@
+{
+  "name": "hello",
+  "version": "1.0.0",
+  "description": "\"Hello world demo\"",
+  "main": "Hello_world.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Alisha Gupta",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "package.json": "^2.0.1"
+  }
+}
