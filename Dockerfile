@@ -12,13 +12,15 @@ WORKDIR /app
 # Install app dependencies
 # A wildcard is used to ensure package.json is copied
 # where available (npm@5+)
-COPY package.json /app
+
+COPY ./ ./
 
 # Install the node modules
-CMD [ "npm" , "install express"]
+
+RUN npm install
 
 #To copy all the files in the directory to app directory
-COPY . /app
+
 
 #To run the node app
 CMD ["node","app.js"]
